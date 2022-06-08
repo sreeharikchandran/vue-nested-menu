@@ -73,8 +73,7 @@ export default {
     },
     props: {
         source: {
-            type: Object,
-            default: () => demoData,
+            type: Object
         },
         panelWidth: {
             type: Number,
