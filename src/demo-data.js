@@ -4,33 +4,34 @@ const data = {
     children: [
         {
             name: `Today's Deals`,
-            link: `/`,
+            link: `/Todays Deals`,
             children: [],
         },
         {
             name: `Your Recommendations`,
-            link: '/',
+            link: '/blog',
             children: [],
         },
         {
             name: `Shop By Department`,
+             link: '/blog',
             children: [
                 {
                     name: `Amazon Music`,
                     children: [
                         {
                             name: `Amazon Music Unlimited`,
-                            link: `/`,
+                            link: '/blog',
                             children: [],
                         },
                         {
                             name: `Prime Music`,
-                            link: `/`,
+                          link: '/blog',
                             children: [],
                         },
                         {
                             name: `CDs and Vinyl`,
-                            link: `/`,
+                            llink: '/blog',
                             children: [],
                         },
                     ],
@@ -40,60 +41,62 @@ const data = {
                     children: [
                         {
                             name: `All Vedio`,
-                            link: '/',
+                            link: '/blog',
                             children: [],
                         },
                         {
                             name: `Included with Prime`,
-                            link: '/',
+                            link: '/blog',
                             children: [],
                         },
                         {
                             name: `Rent or Buy`,
-                            link: '/',
+                           link: '/blog',
                             children: [],
                         },
                     ],
                 },
                 {
                     name: `Treasure Truck`,
-                    link: '/',
+                    link: '/bl',
                     children: [],
                 },
                 {
                     name: `Amazon Restaurants`,
+                     link: '/blog',
                     children: [
                         {
                             name: `Thai`,
-                            link: '/',
+                           link: '/blog',
                             children: [],
                         },
                         {
                             name: `Chinese`,
-                            link: '/',
+                           link: '/blog',
                             children: [],
                         },
                         {
                             name: `American`,
-                            link: '/',
+                             link: '/blog',
                             children: [],
                         },
                         {
                             name: `Indian`,
-                            link: '/',
+                            link: '/blog',
                             children: [],
                         },
                         {
                             name: `Popular Restaurants`,
+                             link: '/blog',
                             children: [
                                 {
                                     name: `Popular Restaurants 1`,
-                                    link: '/',
+                                     link: '/blog',
                                     children: [],
                                 },
                                 {
                                     name: `Popular Restaurants 2`,
-                                    link: '/',
+                                     link: '/blog',
                                     children: [],
                                 },
                             ],

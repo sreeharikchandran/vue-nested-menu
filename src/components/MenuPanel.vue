@@ -16,12 +16,14 @@
 
             <ul class="Menu__list">
                 <li v-for="item in list.children"
-                    @click="handleItemClicked(item)"
+                 
                     class="Menu__item"
                 >
                     <template v-if="item.children.length > 0" :href="item.link">
-                        <div class="text">{{ item.name }}</div>
-                        <span class="arrow">
+                        <a :href="item.link"  >
+                         <div class="text">{{ item.name }}</div>
+                    </a>
+                        <span class="arrow"    @click="handleItemClicked(item)">
                             <RightArrowIcon />
                         </span>
                     </template>
@@ -66,7 +68,7 @@ export default {
         },
         handleItemClicked: {
             type: Function,
-            default: () => {},
+            default: () => {alert('hi')},
         },
 
         // @TODO: create createMenuPanel.js to assign `functionalityStyle` which is not diff from next, staging, and prev panel in parent component.
