@@ -1,13 +1,18 @@
 <template>
     <div class="MenuPanel">
-        <div class="Menu__panel"
+        <div
+            class="Menu__panel"
             :style="[
                 functionalityStyle,
                 positionStyle,
-                (isTranslating) ? transitionStyle : {}
+                isTranslating ? transitionStyle : {},
             ]"
         >
-            <div v-if="list.name" @click="handleHeaderClicked" class="Menu__header">
+            <div
+                v-if="list.name"
+                @click="handleHeaderClicked"
+                class="Menu__header"
+            >
                 <span v-show="showHeaderArrow" class="arrow">
                     <LeftArrowIcon />
                 </span>
@@ -15,15 +20,12 @@
             </div>
 
             <ul class="Menu__list">
-                <li v-for="item in list.children"
-                 
-                    class="Menu__item"
-                >
+                <li v-for="item in list.children" class="Menu__item">
                     <template v-if="item.children.length > 0" :href="item.link">
-                        <a :href="item.link"  >
-                         <div class="text">{{ item.name }}</div>
-                    </a>
-                        <span class="arrow"    @click="handleItemClicked(item)">
+                        <a :href="item.link">
+                            <div class="text">{{ item.name }}</div></a
+                        >
+                        <span class="arrow" @click="handleItemClicked(item)">
                             <RightArrowIcon />
                         </span>
                     </template>
@@ -37,8 +39,8 @@
 </template>
 
 <script>
-import RightArrowIcon from '../icons/RightArrowIcon.vue';
-import LeftArrowIcon from '../icons/LeftArrowIcon.vue';
+import RightArrowIcon from "../icons/RightArrowIcon.vue";
+import LeftArrowIcon from "../icons/LeftArrowIcon.vue";
 
 export default {
     components: {
@@ -68,7 +70,9 @@ export default {
         },
         handleItemClicked: {
             type: Function,
-            default: () => {alert('hi')},
+            default: () => {
+                alert("hi");
+            },
         },
 
         // @TODO: create createMenuPanel.js to assign `functionalityStyle` which is not diff from next, staging, and prev panel in parent component.
@@ -85,8 +89,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-ul, li {
+ul,
+li {
     padding: 0;
     margin: 0;
 }
