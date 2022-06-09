@@ -21,7 +21,7 @@
                 >
                     <template v-if="item.children.length > 0" :href="item.link">
                         <a :href="item.link"  >
-                         <div class="text">{{ item.name }}</div>
+                         <div class="text">{{ item.link }}</div>
                     </a>
                         <span class="arrow"    @click="handleItemClicked(item)">
                             <RightArrowIcon />
