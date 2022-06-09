@@ -3,99 +3,100 @@ const data = {
     children: [
         {
             name: `Today's Deals`,
-            link: `/hoiii`,
+            link: `/todaysdeal`,
             children: [],
         },
         {
             name: `Your Recommendations`,
-            link: "/blog",
+            link: "/recommendations",
             children: [],
         },
         {
             name: `Shop By Department`,
-            link: "/blog",
+            link: "/shopdepartment",
             children: [
                 {
                     name: `Amazon Music`,
                     children: [
                         {
                             name: `Amazon Music Unlimited`,
-                            link: "/blog",
+                            link: `/amzonmusic`,
                             children: [],
                         },
                         {
                             name: `Prime Music`,
-                            link: "/blog",
+                            link: `/primemusic`,
                             children: [],
                         },
                         {
                             name: `CDs and Vinyl`,
-                            llink: "/blog",
+                            link: `/cd`,
                             children: [],
                         },
                     ],
                 },
                 {
                     name: `Prime Vedios`,
+                    link: "/prime",
                     children: [
                         {
                             name: `All Vedio`,
-                            link: "/blog",
+                            link: "/allvideo",
                             children: [],
                         },
                         {
                             name: `Included with Prime`,
-                            link: "/blog",
+                            link: "/prime",
                             children: [],
                         },
                         {
                             name: `Rent or Buy`,
-                            link: "/blog",
+                            link: "/rent",
                             children: [],
                         },
                     ],
                 },
                 {
                     name: `Treasure Truck`,
-                    link: "/bl",
+                    link: "/tresure",
                     children: [],
                 },
                 {
                     name: `Amazon Restaurants`,
-                    link: "/blog",
+                    link: "/restaurat",
                     children: [
                         {
                             name: `Thai`,
-                            link: "/blog",
+                            link: "/thai",
                             children: [],
                         },
                         {
                             name: `Chinese`,
-                            link: "/blog",
+                            link: "/chines",
                             children: [],
                         },
                         {
                             name: `American`,
-                            link: "/blog",
+                            link: "/amercan",
                             children: [],
                         },
                         {
                             name: `Indian`,
-                            link: "/blog",
+                            link: "/indin",
                             children: [],
                         },
                         {
                             name: `Popular Restaurants`,
-                            link: "/blog",
+                            link: "/resta",
                             children: [
                                 {
                                     name: `Popular Restaurants 1`,
-                                    link: "/blog",
+                                    link: "/resta3",
                                     children: [],
                                 },
                                 {
                                     name: `Popular Restaurants 2`,
-                                    link: "/blog",
+                                    link: "/resta4",
                                     children: [],
                                 },
                             ],
