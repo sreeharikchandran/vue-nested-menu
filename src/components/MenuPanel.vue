@@ -7,26 +7,28 @@
                 (isTranslating) ? transitionStyle : {}
             ]"
         >
-            <div v-if="list.title" @click="handleHeaderClicked" class="Menu__header">
+            <div v-if="list.name" @click="handleHeaderClicked" class="Menu__header">
                 <span v-show="showHeaderArrow" class="arrow">
                     <LeftArrowIcon />
                 </span>
-                {{ list.title }}
+                {{ list.name }}
             </div>
 
             <ul class="Menu__list">
                 <li v-for="item in list.children"
-                    @click="handleItemClicked(item)"
+                   
                     class="Menu__item"
                 >
                     <template v-if="item.children.length > 0" :href="item.link">
-                        <div class="text">{{ item.title }}</div>
-                        <span class="arrow">
+                          <a :href="item.link">
+                          <div class="text">{{ item.name }}</div>
+                          </a>
+                        <span class="arrow"  @click="handleItemClicked(item)">
                             <RightArrowIcon />
                         </span>
                     </template>
                     <a v-else :href="item.link">
-                        <div class="text">{{ item.title }}</div>
+                        <div class="text">{{ item.name }}</div>
                     </a>
                 </li>
             </ul>

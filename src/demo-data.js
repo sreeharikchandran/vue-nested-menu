@@ -1,99 +1,103 @@
 
 const data = {
-    title: '首頁',
+    name: '首頁',
     children: [
         {
-            title: `Today's Deals`,
-            link: `/`,
+            name: `Today's Deals`,
+            link: `/todaysdeal`,
             children: [],
         },
         {
-            title: `Your Recommendations`,
-            link: '/',
+            name: `Your Recommendations`,
+            link: '/recommendations',
             children: [],
         },
         {
-            title: `Shop By Department`,
+            name: `Shop By Department`,
+            link: '/shopdepartment',
             children: [
                 {
-                    title: `Amazon Music`,
+                    name: `Amazon Music`,
                     children: [
                         {
-                            title: `Amazon Music Unlimited`,
-                            link: `/`,
+                            name: `Amazon Music Unlimited`,
+                            link: `/amzonmusic`,
                             children: [],
                         },
                         {
-                            title: `Prime Music`,
-                            link: `/`,
+                            name: `Prime Music`,
+                            link: `/primemusic`,
                             children: [],
                         },
                         {
-                            title: `CDs and Vinyl`,
-                            link: `/`,
+                            name: `CDs and Vinyl`,
+                            link: `/cd`,
                             children: [],
                         },
                     ],
                 },
                 {
-                    title: `Prime Vedios`,
+                    name: `Prime Vedios`,
+                    link: '/prime',
                     children: [
                         {
-                            title: `All Vedio`,
-                            link: '/',
+                            name: `All Vedio`,
+                            link: '/allvideo',
                             children: [],
                         },
                         {
-                            title: `Included with Prime`,
-                            link: '/',
+                            name: `Included with Prime`,
+                            link: '/prime',
                             children: [],
                         },
                         {
-                            title: `Rent or Buy`,
-                            link: '/',
+                            name: `Rent or Buy`,
+                            link: '/rent',
                             children: [],
                         },
                     ],
                 },
                 {
-                    title: `Treasure Truck`,
-                    link: '/',
+                    name: `Treasure Truck`,
+                    link: '/tresure',
                     children: [],
                 },
                 {
-                    title: `Amazon Restaurants`,
+                    name: `Amazon Restaurants`,
+                    link: '/restaurat',
                     children: [
                         {
-                            title: `Thai`,
-                            link: '/',
+                            name: `Thai`,
+                            link: '/thai',
                             children: [],
                         },
                         {
-                            title: `Chinese`,
-                            link: '/',
+                            name: `Chinese`,
+                            link: '/chines',
                             children: [],
                         },
                         {
-                            title: `American`,
-                            link: '/',
+                            name: `American`,
+                            link: '/amercan',
                             children: [],
                         },
                         {
-                            title: `Indian`,
-                            link: '/',
+                            name: `Indian`,
+                            link: '/indin',
                             children: [],
                         },
                         {
-                            title: `Popular Restaurants`,
+                            name: `Popular Restaurants`,
+                            link: '/resta',
                             children: [
                                 {
-                                    title: `Popular Restaurants 1`,
-                                    link: '/',
+                                    name: `Popular Restaurants 1`,
+                                    link: '/resta3',
                                     children: [],
                                 },
                                 {
-                                    title: `Popular Restaurants 2`,
-                                    link: '/',
+                                    name: `Popular Restaurants 2`,
+                                    link: '/resta4',
                                     children: [],
                                 },
                             ],
