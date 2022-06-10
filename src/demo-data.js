@@ -17,7 +17,7 @@ const data = {
             link: '/shopdepartment',
             children: [
                 {
-                    name: `Amazon Music`,
+                    name: `Amazon Musicss`,
                     children: [
                         {
                             name: `Amazon Music Unlimited`,
