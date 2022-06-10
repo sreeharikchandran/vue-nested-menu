@@ -1,6 +1,5 @@
-
 const data = {
-    name: '首頁',
+    name: "首頁",
     children: [
         {
             name: `Today's Deals`,
@@ -9,12 +8,12 @@ const data = {
         },
         {
             name: `Your Recommendations`,
-            link: '/recommendations',
+            link: "/recommendations",
             children: [],
         },
         {
             name: `Shop By Department`,
-            link: '/shopdepartment',
+            link: "/shopdepartment",
             children: [
                 {
                     name: `Amazon Musicss`,
@@ -38,66 +37,66 @@ const data = {
                 },
                 {
                     name: `Prime Vedios`,
-                    link: '/prime',
+                    link: "/prime",
                     children: [
                         {
                             name: `All Vedio`,
-                            link: '/allvideo',
+                            link: "/allvideo",
                             children: [],
                         },
                         {
                             name: `Included with Prime`,
-                            link: '/prime',
+                            link: "/prime",
                             children: [],
                         },
                         {
                             name: `Rent or Buy`,
-                            link: '/rent',
+                            link: "/rent",
                             children: [],
                         },
                     ],
                 },
                 {
                     name: `Treasure Truck`,
-                    link: '/tresure',
+                    link: "/tresure",
                     children: [],
                 },
                 {
                     name: `Amazon Restaurants`,
-                    link: '/restaurat',
+                    link: "/restaurat",
                     children: [
                         {
                             name: `Thai`,
-                            link: '/thai',
+                            link: "/thai",
                             children: [],
                         },
                         {
                             name: `Chinese`,
-                            link: '/chines',
+                            link: "/chines",
                             children: [],
                         },
                         {
                             name: `American`,
-                            link: '/amercan',
+                            link: "/amercan",
                             children: [],
                         },
                         {
                             name: `Indian`,
-                            link: '/indin',
+                            link: "/indin",
                             children: [],
                         },
                         {
                             name: `Popular Restaurants`,
-                            link: '/resta',
+                            link: "/resta",
                             children: [
                                 {
                                     name: `Popular Restaurants 1`,
-                                    link: '/resta3',
+                                    link: "/resta3",
                                     children: [],
                                 },
                                 {
                                     name: `Popular Restaurants 2`,
-                                    link: '/resta4',
+                                    link: "/resta4",
                                     children: [],
                                 },
                             ],
